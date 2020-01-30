@@ -1,0 +1,154 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0.75rem;
+  width: 25rem;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.intro img,
+.description img {
+  width: 20rem;
+  height: auto;
+  margin: 5px auto;
+  display: block;
+}
+
+.intro p {
+  width: 20rem;
+  text-align: justify;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.list_of_features {
+  list-style: none;
+  padding: 0;
+}
+
+.list_of_features span {
+  font-weight: bold;
+}
+
+.list_of_features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.list_of_features li {
+  width: 28%;
+}
+
+.features_item {
+  margin: 0 auto;
+  display: block;
+}
+
+.reviews,
+.contacts,
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.description p {
+  text-align: center;
+}
+
+.review {
+  margin-top: 10px;
+
+}
+
+.review img {
+  width: 5rem;
+  height: auto;
+  padding: 10px;
+}
+
+.review span,
+.contacts span {
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px;
+}
+
+@media screen and (min-width: 25em) {
+  html {
+    font-size: calc(18px + (24 - 16) * (100vw - 400px) / (800 - 400));
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .list_of_features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+}
