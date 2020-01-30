@@ -20,12 +20,12 @@ body {
 }
 
 .index {
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
 }
 
 .reviews h2 {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -34,7 +34,7 @@ body {
 .description,
 .reviews,
 .contacts {
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -93,7 +93,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 75%;
+  width: 50%;
 }
 
 .reviews {
@@ -128,6 +128,12 @@ body {
   float: right;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .contacts form {
   display: flex;
   flex-direction: column;
@@ -138,7 +144,7 @@ body {
   margin: 5px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1020px) {
   .list_of_features {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -158,6 +164,14 @@ body {
 
   .features_item {
     width: 50px;
+  }
+
+.intro,
+.features,
+.description,
+.reviews,
+.contacts {
+    width: 100%;
   }
 
 }
